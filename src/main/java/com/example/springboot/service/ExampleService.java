@@ -15,7 +15,8 @@ public class ExampleService implements IExampleService {
         example.setLastName("Kirk");
         String result = switch (example.getLastName()) {
             case "Kirk" -> "Warp Speed";
-            case "Spock" -> "I'm a doctor";
+            case "Spock" -> "That is illogical";
+            case "McCoy" -> "I'm a doctor";
             default -> {
                 yield "Orders Captain?";
             }
