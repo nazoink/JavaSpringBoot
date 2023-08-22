@@ -31,5 +31,6 @@ To run tests find ExampleControllerTest file > right click > left click run 'Exa
 # Future Additions
 Want to include in the near future
 - Spring Security
-- DB connectivity (MS SQLServer)
-- Better automate running tests
+- Working with caching
+- DB connectivity (SQL)
+- Better automated running tests
